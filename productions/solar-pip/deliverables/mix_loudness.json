@@ -1,0 +1,13 @@
+{
+  "integrated_lufs": -14.2,
+  "lra_lu": 3.0,
+  "true_peak_dbtp": -1.4,
+  "sample_peak_dbfs": -1.4,
+  "gain_db": 7.3,
+  "target": {
+    "I": -14.0,
+    "TP": -1.0,
+    "LRA": 11
+  },
+  "pass": true
+}

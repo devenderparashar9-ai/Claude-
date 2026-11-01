@@ -1,0 +1,50 @@
+{
+  "title": "How Sunlight Becomes Electricity",
+  "audience": "Curious 8\u201314 year olds and general YouTube viewers; 16:9, ~40 s",
+  "voice": "en_US-joe-medium",
+  "pace": 1.0,
+  "fact_check": [
+    "Photovoltaic effect: absorbed photons free electrons in silicon \u2192 direct current (DC).",
+    "Inverters convert DC to alternating current (AC) used by household outlets and the grid."
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "text": "Hi, I'm Pip! Ever wondered how sunshine can light up a whole city?",
+      "pause_after": 0.55
+    },
+    {
+      "id": "l2",
+      "text": "It starts with tiny packets of light called photons, racing all the way from the sun.",
+      "pause_after": 0.5
+    },
+    {
+      "id": "l3",
+      "text": "When photons hit a solar panel, they knock electrons loose inside the silicon.",
+      "pause_after": 0.5
+    },
+    {
+      "id": "l4",
+      "text": "Those moving electrons make an electric current.",
+      "pause_after": 0.5
+    },
+    {
+      "id": "l5",
+      "text": "An inverter changes that current into the kind our homes can use.",
+      "pause_after": 0.55
+    },
+    {
+      "id": "l6",
+      "text": "Then power lines carry it into town, and the whole city lights up!",
+      "pause_after": 0.7
+    },
+    {
+      "id": "l7",
+      "text": "Sunlight in, electricity out. Pretty bright idea, right?",
+      "pause_after": 0.4
+    }
+  ],
+  "pronounce": {
+    "photons": "fo tons"
+  }
+}

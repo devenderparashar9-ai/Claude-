@@ -1,0 +1,39 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,DejaVu Sans,62,&H0033C8FF,&H00FFFFFF,&H00401A2E,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,2,80,80,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.60,0:00:01.03,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf23}Hi,
+Dialogue: 0,0:00:01.05,0:00:01.63,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf28}I'm {\kf10}Pip!
+Dialogue: 0,0:00:01.87,0:00:03.33,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf22}Ever {\kf28}wondered {\kf34}how {\kf42}sunshine
+Dialogue: 0,0:00:03.13,0:00:04.25,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf32}can {\kf16}light {\kf14}up {\kf12}a {\kf18}whole
+Dialogue: 0,0:00:04.05,0:00:04.53,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf28}city?
+Dialogue: 0,0:00:05.01,0:00:06.69,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf14}It {\kf26}starts {\kf32}with {\kf32}tiny {\kf44}packets
+Dialogue: 0,0:00:06.49,0:00:07.95,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf20}of {\kf20}light {\kf30}called {\kf56}photons,
+Dialogue: 0,0:00:07.75,0:00:09.47,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf74}racing {\kf26}all {\kf14}the {\kf16}way {\kf22}from
+Dialogue: 0,0:00:09.27,0:00:09.85,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf18}the {\kf20}sun.
+Dialogue: 0,0:00:10.22,0:00:11.61,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf14}When {\kf40}photons {\kf26}hit {\kf16}a {\kf22}solar
+Dialogue: 0,0:00:11.41,0:00:12.09,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf48}panel,
+Dialogue: 0,0:00:12.27,0:00:13.61,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf10}they {\kf20}knock {\kf50}electrons {\kf34}loose
+Dialogue: 0,0:00:13.41,0:00:14.59,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf44}inside {\kf20}the {\kf34}silicon.
+Dialogue: 0,0:00:15.02,0:00:16.61,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf17}Those {\kf34}moving {\kf58}electrons {\kf30}make
+Dialogue: 0,0:00:16.41,0:00:17.59,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf18}an {\kf38}electric {\kf42}current.
+Dialogue: 0,0:00:17.90,0:00:19.31,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf15}An {\kf44}inverter {\kf26}changes {\kf36}that
+Dialogue: 0,0:00:19.11,0:00:20.37,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf24}current {\kf24}into {\kf20}the {\kf20}kind {\kf18}our
+Dialogue: 0,0:00:20.17,0:00:21.25,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf24}homes {\kf28}can {\kf36}use.
+Dialogue: 0,0:00:21.75,0:00:23.23,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf14}Then {\kf28}power {\kf36}lines {\kf28}carry {\kf22}it
+Dialogue: 0,0:00:23.03,0:00:23.83,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf24}into {\kf36}town,
+Dialogue: 0,0:00:23.91,0:00:25.11,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf20}and {\kf8}the {\kf20}whole {\kf24}city {\kf28}lights
+Dialogue: 0,0:00:24.91,0:00:25.38,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf27}up!
+Dialogue: 0,0:00:25.88,0:00:26.79,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf41}Sunlight {\kf30}in,
+Dialogue: 0,0:00:26.91,0:00:28.05,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf34}electricity {\kf60}out.
+Dialogue: 0,0:00:28.29,0:00:29.33,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf16}Pretty {\kf22}bright {\kf46}idea,
+Dialogue: 0,0:00:29.39,0:00:29.75,Karaoke,,0,0,0,,{\fad(80,60)\fscx92\fscy92\t(0,120,\fscx100\fscy100)}{\kf16}right?

@@ -1,0 +1,172 @@
+{
+  "file": "/home/user/Claude-/productions/solar-pip/build/solar-pip.mp4",
+  "checks": [
+    {
+      "check": "file exists and non-empty",
+      "pass": true,
+      "detail": 28053579
+    },
+    {
+      "check": "has video stream",
+      "pass": true,
+      "detail": "h264"
+    },
+    {
+      "check": "has audio stream",
+      "pass": true,
+      "detail": "aac 48000Hz 2ch"
+    },
+    {
+      "check": "resolution",
+      "pass": true,
+      "detail": "1920x1080"
+    },
+    {
+      "check": "frame rate",
+      "pass": true,
+      "detail": 30.0
+    },
+    {
+      "check": "pixel format yuv420p (max player compatibility)",
+      "pass": true,
+      "detail": "yuv420p"
+    },
+    {
+      "check": "audio/video duration drift < 100ms",
+      "pass": true,
+      "detail": "v=34.000s a=34.000s"
+    },
+    {
+      "check": "duration in range",
+      "pass": true,
+      "detail": 34.0
+    },
+    {
+      "check": "no unintended black frames",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "check": "no frozen picture \u22652.5s (everything on screen should keep moving)",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "check": "integrated loudness -14.0\u00b11 LUFS (youtube)",
+      "pass": true,
+      "detail": -14.3
+    },
+    {
+      "check": "true peak \u2264 -1.0 dBTP",
+      "pass": true,
+      "detail": -1.1
+    },
+    {
+      "check": "no clipped samples",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "check": "no dead-air gaps \u22651.5s",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "check": "narration \u2265 6 dB above bed (intelligibility)",
+      "pass": true,
+      "detail": 10.02
+    },
+    {
+      "check": "final-mix intelligibility (ASR match vs clean narration)",
+      "pass": true,
+      "detail": {
+        "final": 0.9818,
+        "clean": 0.9586,
+        "issues": [
+          {
+            "type": "replace",
+            "script": "Sunlight",
+            "heard": "Some light",
+            "at": 25.8
+          }
+        ]
+      }
+    }
+  ],
+  "pass": true,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "pix_fmt": "yuv420p",
+    "codec": "h264",
+    "aspect": "1.7778"
+  },
+  "duration": 34.0,
+  "loudness": {
+    "integrated_lufs": -14.3,
+    "lra_lu": 3.0,
+    "true_peak_dbtp": -1.1,
+    "sample_peak_dbfs": -1.1
+  },
+  "speech_over_bed_db": 10.02,
+  "contact_sheet": "/home/user/Claude-/productions/solar-pip/build/qa/contact_sheet.png",
+  "frames": [
+    "/home/user/Claude-/productions/solar-pip/build/qa/frames/frame_0001.70.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/frames/frame_0008.50.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/frames/frame_0017.00.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/frames/frame_0025.50.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/frames/frame_0032.30.png"
+  ],
+  "manual_review_required": [
+    "Open contact_sheet.png and every frame: character on-model (face, outline, proportions), lighting (purple shadows, gold rim)",
+    "Captions readable, not covering faces, spelled correctly (names/numbers/terms)",
+    "Each narration cue lands with its visual action (check timing.json against frames)"
+  ],
+  "caption_qc": [
+    "reading speed 20.8 cps > 20.0 at 23.91s"
+  ],
+  "narration_issues": [
+    {
+      "type": "replace",
+      "script": "Sunlight",
+      "heard": "Some light",
+      "at": 25.85
+    },
+    {
+      "type": "insert",
+      "script": "",
+      "heard": "Thank you very much.",
+      "at": 29.55
+    },
+    "3 low-confidence words \u2014 proofread: Pip.@1.33, Thank@29.55, very@30.77"
+  ],
+  "cue_frames": [
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0000.70.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0002.91.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0004.10.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0005.16.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0007.44.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0008.10.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0010.28.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0011.12.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0012.27.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0012.92.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0014.40.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0015.44.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0017.32.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0017.85.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0018.40.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0018.84.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0020.52.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0021.80.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0023.62.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0024.93.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0025.78.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0026.49.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0027.35.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0028.70.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0029.69.png",
+    "/home/user/Claude-/productions/solar-pip/build/qa/cue_frames/frame_0030.49.png"
+  ]
+}

@@ -1,0 +1,15 @@
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.musevid_cache/
+animation/out/
+# generated intermediates (rebuild with musevid.produce)
+productions/*/build/stems/
+productions/*/build/qa/
+productions/*/build/video_silent.mp4
+productions/*/build/*.premaster.wav
+productions/*/build/mix.wav
+productions/*/build/*.mp4
+productions/*/build/narration/lines/*.wav
+!productions/*/build/narration/lines/*.*.wav
